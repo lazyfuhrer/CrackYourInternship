@@ -7,6 +7,7 @@ class Solution{
     //Function to rearrange  the array elements alternately.
     void rearrange(long long *arr, int n)
     {
+      int end = n, start=0;   
       vector<int> ans(n, 0);
     
       for (int i=0; i<arr.size(); i+=2) {
